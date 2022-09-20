@@ -10,7 +10,7 @@ public:
             if(nums[i]==nums[i+1])
             {
             ans.push_back(nums[i]);
-            i++;
+            i+=2;
             }
             else
                 i++;
